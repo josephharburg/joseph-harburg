@@ -1,13 +1,40 @@
-.logo {
+.topPage{
   display:flex;
-  flex-wrap: nowrap;
-  position:static;
-  font-size: 5em;
-  justify-content: left;
+  position: static;
+}
+
+h1 {
+  font-family: 'Patua One', cursive;
+  color: black;
+  font-size: 24pt;
+}
+
+.logo {
+  display: flex;
+  position: static;
   padding-left: 1em;
   font-family: 'Patua One', cursive;
   color: black;
   font-size: 24pt;
+}
+
+.menuButton {
+  position: absolute;
+  top:.05em;
+  right:1em;
+  margin-left: 65em;
+  padding-top: 1em;
+}
+
+.dropDown{
+  font-family: 'Patua One', cursive;
+  position:absolute;
+  top: 6em;
+  right: 1em;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  width: 80px;
 }
 
 .logo:hover {
@@ -41,7 +68,6 @@ a {
     opacity: 0.7;
 }
 
-}
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -63,10 +89,9 @@ a {
   color: white;
 }
 
-
 .containerone {
   display:flex;
-  padding: 1em;
+  padding-top: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
   border-color: #66C4F7;
@@ -79,8 +104,8 @@ a {
   padding-left: 2em;
   justify-content: center;
   position: static;
-  padding-top: 5em;
+  padding-top: 1em;
   text-align: left;
   font-family: 'Patua One';
-  font-size: 32pt;
+  font-size: 24pt;
 }
