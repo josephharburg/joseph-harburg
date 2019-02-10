@@ -41,10 +41,6 @@ a {
     opacity: 0.7;
 }
 
-.sticky{
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 1rem;
 }
 .fa-facebook {
   background: #3B5998;
