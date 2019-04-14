@@ -1,85 +1,44 @@
-.topPage{
-  display:flex;
-  position: static;
-}
-
-h1 {
-  font-family: 'Patua One', cursive;
-  color: black;
-  font-size: 24pt;
-}
-
-.logo {
-  display: flex;
-  position: static;
-  padding-left: 1em;
-  font-family: 'Patua One', cursive;
-  color: black;
-  font-size: 24pt;
-}
-
-.menuButton {
-  position: absolute;
-  top:.05em;
-  right:1em;
-  margin-left: 65em;
-  padding-top: 1em;
-}
-
-.dropDown{
-  font-family: 'Patua One', cursive;
-  position:absolute;
-  top: 6em;
-  right: 1em;
-  border-style: solid;
-  border-color: black;
-  border-width: thin;
-  width: 80px;
-}
-
-.logo:hover {
-  opacity: 0.7;
-}
-
-a {
-  text-decoration: none;
-  color:inherit;
-}
-
 .mainimg {
-  position: static;
-  justify-content: left;
+  float: left;
   border-color: black;
-  border: 5px;
-  box-shadow: 0px 5px 20px #C0C0C0;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
 }
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
+a:hover {
   text-decoration: none;
-  margin: 5px 2px;
+}
+.sized {
+  height: 40px;
+  padding-top: 15px;
+}
+.padding {
+  padding-top: 20px;
+}
+.fa {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
   border-radius: 50%;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
-  margin-left: 45%;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
-.fa-wordpress{
+.fa-wordpress {
   background: #000000;
   color: white;
 }
@@ -87,25 +46,4 @@ a {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}
-
-.containerone {
-  display:flex;
-  padding-top: 1em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  border-color: #66C4F7;
-  border: 10px;
-  box-shadow: 0px 5px 20px #C0C0C0;
-  width: 100%;
-}
-
-.containertwo {
-  padding-left: 2em;
-  justify-content: center;
-  position: static;
-  padding-top: 1em;
-  text-align: left;
-  font-family: 'Patua One';
-  font-size: 24pt;
 }
