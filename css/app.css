@@ -1,9 +1,52 @@
+html {
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
 .mainimg {
-    align-content: center;
+    width:100%;
+    max-width:20vw;
     border-width: 2em;
     border-radius: 50%;
     border: solid;
     border-color: black;
+    height: auto;
+}
+.bgwrapper {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.hoverlay {
+    height: 60vh;
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    background: white;
+    opacity: 0.85;
+}
+
+.hcontent {
+    z-index: 2;
 }
 
 
@@ -11,11 +54,12 @@
     font-family: 'Roboto', sans-serif;
     color: #2d2c33;
     font-weight: bold;
-    padding-bottom: 1em;
+ 
 }
 
 .subheading {
-    margin-top: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
     font-family: 'Roboto', sans-serif;
     color: #2d2c33;
     font-weight: bold;
@@ -48,20 +92,41 @@ a:hover {
     padding-top: 20px;
 }
 
+@media (max-width: 1000px) {
+
+    .bulletsleft {
+        padding-bottom: 2em;
+        font-family: Patua One;
+        font-size:smaller;
+        
+    }
+    .mainimg {
+        display:none;
+    }
+    .bulletsright {
+        text-align:left;
+        padding-bottom: 2em;
+        font-family: Patua One;
+        font-size: smaller;
+    }
+}
 .bulletsleft {
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     font-family: Patua One;
+    font-size-adjust:inherit;
+    font-size:xx-large;
+    
 }
 
 .bulletsright {
     text-align: right;
-    padding-left: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     font-family: Patua One;
+    font-size:xx-large;
 }
 
 .bullets {
-    margin-left: 2em;
+    
     font-family: Patua One;
     justify-content: center;
 }
@@ -72,6 +137,14 @@ a:hover {
     height: 80px;
     text-align: center;
     padding-top: 10px;
+    border-radius: 3px;
+}
+.fatter {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+   padding-top: 5px;
     border-radius: 3px;
 }
 
