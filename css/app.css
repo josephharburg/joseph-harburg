@@ -116,6 +116,7 @@ a:hover {
     .mov{
        height:inherit;
        width:inherit;
+       display: none;
      
     }
     .bullets{
