@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Joseph Harburg</title>
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto|Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jura|Anton|Roboto|Patua+One&display=swap" rel="stylesheet">
     <link rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
@@ -15,92 +15,105 @@
     <link rel="stylesheet" href="css/app.css" />
 </head>
 <body>
+
     <div class="bgwrapper">
-        <video playsinline autoplay muted loop src="imgs/typing.mov">
+        <video class="mov" playsinline autoplay muted loop src="imgs/typing.mov">
         </video>
     </div>
+
     <div class="hoverlay">
     </div>
-    <div class="jumbotron-fluid">
-        <h1 class="display-1 text-dark text-center heading" heading>
+
+    <div class="container-fluid header">
+        <div class="jumbotron-fluid">
+            <h1 class="display-1 text-dark text-center heading" heading>
+                <br />
+                Joseph Harburg
+            </h1>
+            <h4 class="display-4 text-center sub"><span class="prog"> Programmer </span> <span class="Dev"> Web Developer </span> <span class="GrDes"> Graphic Designer </span></h4>
             <br />
-            Joseph Harburg
-        </h1>
-        <h4 class="display-4 text-center text-secondary">Programmer | Graphic Designer | Web Developer</h4>
+
+        </div>
     </div>
-
-    <div class="container">
-        <br />
-        <h1 class="text-center subheading">Technical Skills</h1>
-
-        <div class="row justify-content-md-center">
-
-            <div class="col">
-                <div class="bulletsleft"><span class="badge badge-primary">&#10022;</span> C#</div>
-                <div class="bulletsleft"><span class="badge badge-dark">&#10022;</span>.NET Core</div>
-                <div class="bulletsleft"><span class="badge badge-danger">&#10022;</span> HTML/CSS</div>
-            </div>
-
-            <div class="col col-auto">
-                <img src="imgs/profilepic.png"
-                     class="mainimg"
-                     alt="img" />
-            </div>
-            <div class="col">
-                <div class="bulletsright">OOP   <span class="badge badge-info ">&#10022;</span></div>
-                <div class="bulletsright">Git/Github   <span class="badge badge-success">&#10022;</span></div>
-                <div class="bulletsright">SQL Server   <span class="badge badge-secondary">&#10022;</span></div>
-            </div>
-
-
-            <div class="row justify-content-sm-center">
-                <div class="col-auto">
-                    <h2 class="bullets"><span class="badge badge-success">&#10022;</span> EF Core</h2>
+    <div class="container-fluid about p-5" style="background-color:#123C69">
+        <div class="jumbotron-fluid text-center">
+            <h1 class="text-center text-white aboutme">Welcome! I believe that what describes me most is how I spend time.</h1>
+            <div class=" aboutme display-2 text-center  pt-3"><i class="fas fa-clock"></i></div>
+            <h1 class="text-center aboutme ">I spend my time:</h1>
+            <br />
+        </div>
+        <div class="mx-auto">
+            
+            <div class="row p-2">
+                <div class="col col-lg text-center display-4 p- text-primary aboutme">
+                    <div> <i class="fas fa-users"></i></div>
+                    <div>With family</div>
 
                 </div>
-                <div class="col-auto">
-
-                    <h2 class="bullets"><span class="badge badge-primary">&#10022;</span> Jquery</h2>
-
-                </div>
-                <div class="col-auto">
-
-                    <h2 class="bullets"><span class="badge badge-info ">&#10022;</span> APIs</h2>
+                <div class="col col-lg text-center p-3 aboutme display-4" style="color:#FF652F;">
+                    <div> <i class="fas fa-book"></i></div>
+                    <div>Reading </div>
 
                 </div>
-                <div class="col-auto">
+                <div class="col col-lg text-center p-3 display-4 aboutme" style="color:#FFE400;">
+                    <div> <i class="fas fa-lightbulb text-warning"></i></div>
+                    <div class="text-warning">Discussing Ideas</div>
 
-                    <h2 class="bullets"><span class="badge badge-warning text-white">&#10022;</span> Bootstrap</h2>
                 </div>
-
             </div>
-
+            <br />
+            <div class="row p-2">
+                <div class="col col-lg display-4 p-2 aboutme text-center text-secondary" style="color:#747474;">
+                    <div> <i class="fas fa-laptop"></i></div>
+                    <div> Programming</div>
+                </div>
+                <div class="col col-lg display-4 p-2 aboutme text-center" style="color:#272727;">
+                    <div><i class="fas fa-mug-hot" ></i></div>
+                    <div > Roasting Coffee </div>
+                </div>
+                <div class="col col-lg display-4 p-2 aboutme text-success text-center">
+                    <div><i class="fas fa-hiking"></i> </div>
+                    <div>Hiking</div>
+                </div>
+            </div>
 
 
         </div>
 
+    </div>
+    <div class="container pt-5">
+        <h1 class=" text-center display-1 technical"><i class="fas fa-laptop-code"></i></h1>
+        <h1 class="text-center aboutme text-dark"> As mentioned, I spend time programming,<br /> Below are what I have expereince with! </h1>
+
+        <div class="container pt-5">
+            <div class="row justify-content-md-center">
+
+                <div class="col">
+                    <h1 class="bulletsleft bounce"><span class="badge badge-primary">&#x276E; C# &#x276F;</span> </h1>
+                    <h1 class="bulletsleft bounce"><span class="badge text-white" style="background-color:darkmagenta;">&#x276E; .NET Core &#x276F;</span></h1>
+                    <h1 class="bulletsleft bounce"><span class="badge badge-danger">&#x276E; HTML/CSS &#x276F;</span> </h1>
+                    <h1 class="bulletsleft bounce"><span class="badge badge-success text-center">&#x276E; EF Core &#x276F;</span></h1>
+                </div>
+
+                <div class="col col-auto align-self-center removeitem">
+                    <img src="imgs/profilepic.png"
+                         class="mainimg"
+                         alt="img" />
+                </div>
+
+                <div class="col">
+                    <h1 class="bulletsright bounce"><span class="badge badge-dark"> &#x276E; Javascript &#x276F;</span></h1>
+                    <h1 class="bulletsright bounce"><span class="badge badge-secondary">&#x276E; SQL Server &#x276F;</span></h1>
+                    <h1 class="bulletsright bounce"><span class="badge badge-info ">&#x276E; ASP .Net &#x276F;</span> </h1>
+                    <h1 class="bulletsright bounce"><span class="badge badge-warning text-white">&#x276E; Bootstrap &#x276F;</span> </h1>
+                </div>
+            </div>
 
 
+        </div>
     </div>
 
-    <!--<div class="container">
-       <h1 class="text-center heading">Project Examples</h1>
-      <a href="pages/bootstrap2.html"
-         class="btn btn-primary btn-lg"
-         target="_blank">
-          <i class="fas fa-pencil-ruler"></i> Front End Website
-      </a>
-      <a href="https://github.com/josephharburg"
-         class="btn btn-secondary btn-lg"
-         target="_blank">
-          <i class="fab"></i> Github Projects
-      </a>-->
-    <!--<a href="https://limitless-hamlet-55209.herokuapp.com/index.html"
-       class="btn btn-secondary btn-lg float-md-right"
-       target="_blank">
-        <i class="fas fa-cloud"></i> Front End Website
-    </a>-->
-    <!--</div>-->
+    <div class="text-center display-4 text-dark mt-5 contact"> Please go to my Github for project examples or Contact Me!</div>
     <div class="container padding">
         <div class="row">
             <div class="mx-auto">
@@ -118,13 +131,12 @@
                     <a href="https://josephharburg.wordpress.com" target="_blank">
                         <i class="fab fa-wordpress fat"></i>
                     </a>
-                    <a href="https://twitter.com/JosephHarburg" target="_blank">
+                    <!--<a href="https://twitter.com/JosephHarburg" target="_blank">
                         <i class="fab fa-twitter fat"></i>
-                    </a>
-
-                    <a href="https://facebook.com/Josephharburg" target="_blank">
+                    </a>-->
+                    <!--<a href="https://facebook.com/Josephharburg" target="_blank">
                         <i class="fab fa-facebook fat"></i>
-                    </a>
+                    </a>-->
                 </span>
             </div>
         </div>
