@@ -72,6 +72,16 @@ a:hover {
     color: white;
     opacity: 0.7;
 }
+.aboutme:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    transform: scale(1.5);
+}
+a.aboutlink:hover{
+    text-decoration: none;
+    opacity: 0.7;
+    transform:scale(1.5);
+}
 
 .sized {
     height: 40px;
@@ -187,6 +197,10 @@ a:hover {
         font-family: 'Jura', script;
         color: whitesmoke;
     }
+.aboutmeh {
+    font-family: 'Jura', script;
+    color: whitesmoke;
+}
 
     .sub {
         color: slategrey;
