@@ -1,18 +1,50 @@
 
-const dropDown = document.querySelector('.menuButton');
-const menu = "<div class='dropDown'><a href='pages/Aboutme.html'>About Me</a></div>";
-const findMenu = document.querySelector('.dropDown');
-var dropped = false;
-function expand (event) {
-  if (event.target === dropDown && dropped === false) {
-    dropDown.insertAdjacentHTML("afterend", menu);
-    return dropped = true;
-  }
-  else {
-    const findMenutwo = document.querySelector('.dropDown');
-    findMenutwo.parentNode.removeChild(findMenutwo)
-    return dropped = false;
-  }
-}
+$(window).scroll(function () {
+    $('.mainimg').each(function () {
+        var imagePos = $(this).offset().top;
+        var imageHeight = $(this).height();
+        var topOfWindow = $(window).scrollTop();
 
-dropDown.addEventListener('click', expand)
+        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+            $(this).addClass("bounce");
+            
+        }
+    });
+});
+$(window).scroll(function () {
+    $('.zLeft').each(function () {
+        var imagePos = $(this).offset().top;
+        var imageHeight = $(this).height();
+        var topOfWindow = $(window).scrollTop();
+
+        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+            $(this).addClass("zoomInLeft");
+            $(this).show();
+        } 
+    });
+});
+
+$(window).scroll(function () {
+    $('.zRight').each(function () {
+        var imagePos = $(this).offset().top;
+        var imageHeight = $(this).height();
+        var topOfWindow = $(window).scrollTop();
+
+        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+            $(this).addClass("zoomInRight");
+            $(this).show();
+        } 
+    });
+});
+$(window).scroll(function () {
+    $('.contact').each(function () {
+        var imagePos = $(this).offset().top;
+        var imageHeight = $(this).height();
+        var topOfWindow = $(window).scrollTop();
+
+        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+            $(this).addClass("pulse");
+        } 
+    });
+});
+
