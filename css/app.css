@@ -102,7 +102,7 @@ a.aboutlink:hover {
         font-size: large;
     }
 
-    .sub {
+    .Dev {
         font-size: larger;
     }
 
@@ -157,7 +157,7 @@ a.aboutlink:hover {
 
     i.fat {
         font-size: small;
-        ;
+        
         width: 50px;
         height: 40px;
         text-align: center;
@@ -172,6 +172,9 @@ a.aboutlink:hover {
     div.aboutme {
         font-size: larger;
     }
+    h1.aboutmeh {
+        font-size: larger;
+    }
 
     div.contact {
         font-size: large;
@@ -181,19 +184,16 @@ a.aboutlink:hover {
         height: 600px;
     }
 }
-.Prog {
-    color: #8860D0;
-    font-weight: bolder;
-}
+
 
 .Dev {
     color: #5680EA;
-    font-weight: bolder;
+    
 }
 
 .GrDes {
     color: #5AB9EA;
-    font-weight: bolder;
+   
 }
 
 
@@ -211,7 +211,7 @@ a.aboutlink:hover {
     display: none;
 }
 .bgl {
-    background-color: #8860D0;
+    background-color: #5680EA;
 }
 .bgr {
     background-color: #5680EA;
@@ -220,7 +220,7 @@ a.aboutlink:hover {
 
 
 .about {
-    height: 110vh;
+    height: 85vh;
 }
 
 .aboutme {
@@ -238,9 +238,7 @@ a.aboutlink:hover {
 .contact {
     color: #5680EA;
 }
-.sub {
-    color: slategrey;
-}
+
 
 
 
