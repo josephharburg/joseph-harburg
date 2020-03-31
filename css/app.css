@@ -23,10 +23,9 @@ html {
 .mainimg {
     width: 500px;
     border-radius: 50%;
-    border: 50px solid #5AB9EA;
+    border: 50px solid #16B4DA;
     height: auto;
     margin-bottom: 10vh;
-    
 }
 
 .bgwrapper {
@@ -101,7 +100,10 @@ a.aboutlink:hover {
         font-family: Patua One;
         font-size: large;
     }
-
+    img.nameLogo{
+        height:20vh;
+        width:auto;
+    }
     .Dev {
         font-size: larger;
     }
@@ -249,9 +251,12 @@ a.aboutlink:hover {
     opacity: 0.7;
     color: #25274D;
 }
+.nameLogo{
+    max-height:inherit;
+    height:80vh;
 }
 .contact {
-    color: #5680EA;
+    color: #25274D;
 }
 
 .header {
